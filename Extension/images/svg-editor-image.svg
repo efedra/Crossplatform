@@ -1,0 +1,20 @@
+<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_10">
+   <rect transform="matrix(8.02765573442008,0,0,8.02765573442008,0,0) " id="svg_9" stroke-width="2" stroke="#BBC1DA" fill="white" rx="7" height="22" width="22" y="13.913873" x="25.125117"/>
+  </g>
+  <g stroke="null" id="svg_15">
+   <path stroke="null" id="svg_14" fill="#A5A5A5" d="m276.772184,221.919969l-18.076713,-20.603603c-3.204469,-3.652363 -8.399957,-3.652363 -11.604508,0c-3.204469,3.652363 -3.204469,9.574125 0,13.226488l24.61686,28.057502c3.478538,3.964551 9.215106,3.573614 12.254478,-0.835184l57.439531,-74.819942c2.799767,-4.061537 2.181061,-9.941026 -1.382652,-13.132308c-3.563713,-3.191188 -8.721782,-2.485631 -11.52237,1.575907l-51.724626,66.53114z" clip-rule="evenodd" fill-rule="evenodd"/>
+  </g>
+ </g>
+</svg>
