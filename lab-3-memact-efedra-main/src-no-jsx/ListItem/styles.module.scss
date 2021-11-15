@@ -1,0 +1,47 @@
+.root {
+  font-size: 36px;
+  font-weight: 300;
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+  transition-property: transform, opacity;
+
+  button {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 12px;
+    display: none;
+  }
+
+  &:hover > button {
+    display: block;
+  }
+
+  .square {
+    width: 36px;
+    height: 36px;
+    min-height: 36px;
+    min-width: 36px;
+    border: 2px solid #26252d;
+    margin-right: 16px;
+    transition: all ease 200ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #e2e2e2;
+    }
+  }
+
+  &.deleted {
+    transform: translateX(-2000px);
+    opacity: 0;
+  }
+}
